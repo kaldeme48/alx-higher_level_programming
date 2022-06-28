@@ -53,18 +53,18 @@ Non string input:
     TypeError: text must be a string
 
 No special char in string input:
-    >>> text_indentation("hello")
-    hello
+    >>> text_indentation("welcome")
+    welcome
 
 QA case:
-    >>> text_indentation("Holberton. School? How are you: John")
-    Holberton.
+    >>> text_indentation("Kaleab? Whatsup: Im good. Meba")
+    Kaleab
     <BLANKLINE>
-    School?
+    Whatsup;
     <BLANKLINE>
-    How are you:
+    Im good.
     <BLANKLINE>
-    John
+    Meba
 
 No input:
     >>> text_indentation()

@@ -11,12 +11,12 @@ First import ``say_my_name``
 Now use it:
 
 Basic usage:
-    >>> say_my_name("John", "Smith")
-    My name is John Smith
+    >>> say_my_name("Kaleab", "Ayalew")
+    My name is Kaleab Ayalew
 
 First name only input:
-    >>> say_my_name("Bob")
-    My name is Bob 
+    >>> say_my_name("Demelash")
+    My name is Demelash 
 
 Non string input:
     >>> say_my_name(3, 3)
@@ -37,7 +37,7 @@ No inputs:
     TypeError: say_my_name() missing 1 required positional argument: 'first_name'
 
 Last name wrong input:
-    >>> say_my_name("Bob", 3)
+    >>> say_my_name("Nat", 3)
     Traceback (most recent call last):
     ...
     TypeError: last_name must be a string
